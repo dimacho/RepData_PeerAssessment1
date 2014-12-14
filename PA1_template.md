@@ -59,7 +59,7 @@ tab2 <- tapply(activityVals$steps,as.factor(activityVals$interval), mean)
 par(mar=c(4,4,2,2), cex=1)
 
 plot(tab2, xlab="Time", axes=FALSE, ylab="Number of steps", 
-     main="Average number of steps /5 min interval", 
+     main="Average number of steps in 5 min interval", 
      type="l")
 axis(2)
 axis(1, at=c(0,48,96,144,192,240,288), labels=c("0","4","8","12","16","20","24")) 
