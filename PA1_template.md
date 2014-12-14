@@ -36,7 +36,7 @@ hist(tab1[,1], xlab="Number of steps per day",
      main="Distribution of the number of steps per day")
 ```
 
-![](./PA1_template_files/figure-html/unnamed-chunk-2-1.png) 
+![](PA1_template_files/figure-html/unnamed-chunk-2-1.png) 
 
 ```r
 summary = summary(tab1)
@@ -65,7 +65,7 @@ axis(2)
 axis(1, at=c(0,48,96,144,192,240,288), labels=c("0","4","8","12","16","20","24")) 
 ```
 
-![](./PA1_template_files/figure-html/unnamed-chunk-3-1.png) 
+![](PA1_template_files/figure-html/unnamed-chunk-3-1.png) 
 
 The 5-minute interval with the highest number of average steps is calulated:
 
@@ -115,7 +115,7 @@ hist(tab3, xlab="Number of steps per day",
      main="Distribution of the number of steps per day")
 ```
 
-![](./PA1_template_files/figure-html/unnamed-chunk-7-1.png) 
+![](PA1_template_files/figure-html/unnamed-chunk-7-1.png) 
 
 ```r
 summary = summary(tab3)
@@ -179,7 +179,7 @@ xyplot(steps~interval|day, data = tab4, type="l",
    layout=c(1,2))
 ```
 
-![](./PA1_template_files/figure-html/unnamed-chunk-9-1.png) 
+![](PA1_template_files/figure-html/unnamed-chunk-9-1.png) 
 
 
 *******************
